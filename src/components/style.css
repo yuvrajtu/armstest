@@ -1,0 +1,257 @@
+.nav-item{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.navbar-nav{
+  padding-left: 20%;
+}
+.navbar-brand{
+	       flex: auto;
+}
+.container {
+  position: relative;
+  width: 100%;
+  padding: 0px 0px;
+  border: none;
+  margin:0px 0px 0px 0px;
+}
+
+.img-wrapper {
+  position: relative;
+ }
+
+.img-responsive {
+  width: 100%;
+  height: 500px;
+}
+
+.img-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.img-overlay:before {
+  content: ' ';
+  display: block;
+  /* adjust 'height' to position overlay content vertically */
+  height: 40%;
+}
+
+.btn-responsive {
+  /* matches 'btn-md' */
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+}
+
+@media (max-width:760px) { 
+    /* matches 'btn-xs' */
+    .btn-responsive {
+        padding: 1px 5px;
+        font-size: 12px;
+        line-height: 1.5;
+        border-radius: 3px;
+    }
+}
+
+#about{
+	padding-left:25%;
+}
+
+.lead{
+	padding-left:25%;
+	padding-right: 5%;
+}
+
+#ilogo{
+  width: 13%;
+  margin-left: 10%;
+
+}
+
+#Iservices{
+	float: left;
+	width: auto;
+	height:auto;
+	padding-left:25%;
+	padding-right:5%
+
+}
+
+#hservices{
+	/*float: left;*/
+	padding-top:50px;
+	width: auto;
+	height:auto;
+}
+
+#pservices{
+	width:90%;
+}
+
+#iclient{
+  width: 99%;
+  height: 60%;
+
+}
+
+#services{
+	min-height: 400px;
+}
+
+#Iteam{
+	
+	width: auto;
+	height:auto;
+	/*padding-left:25%;
+	padding-right:5%*/
+
+}
+
+#hteam{
+    padding-top: 50px;
+    padding-left: 27%;
+    width: auto;
+    height: auto;
+}
+
+#pteam{
+	width: 47%;
+    padding-right: 4%;
+    float: left;
+    padding-left: 27%;
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+
+.nav-menu .drop-down ul {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: calc(100% + 30px);
+  z-index: 99;
+  opacity: 0;
+  visibility: hidden;
+  padding: 10px 0;
+  background: #fff;
+  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  transition: ease all 0.3s;
+}
+
+.navbar-brand{
+	       flex: auto;
+}
+.container {
+  position: relative;
+  width: 100%;
+  padding: 0px 0px;
+  border: none;
+  margin:0px 0px 0px 0px;
+}
+
+.img-wrapper {
+  position: relative;
+ }
+
+.img-responsive {
+  width: 100%;
+  height: 500px;
+}
+
+.img-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.img-overlay:before {
+  content: ' ';
+  display: block;
+  /* adjust 'height' to position overlay content vertically */
+  height: 40%;
+}
+
+.btn-responsive {
+  /* matches 'btn-md' */
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+}
+
+@media (max-width:760px) { 
+    /* matches 'btn-xs' */
+    .btn-responsive {
+        padding: 1px 5px;
+        font-size: 12px;
+        line-height: 1.5;
+        border-radius: 3px;
+    }
+}
+
+#about{
+	padding-left:25%;
+}
+
+.lead{
+	padding-left:25%;
+	padding-right: 5%;
+}
+
+#Iservices{
+	float: left;
+	width: auto;
+	height:auto;
+	padding-left:25%;
+	padding-right:5%
+
+}
+
+#hservices{
+	/*float: left;*/
+	padding-top:50px;
+	width: auto;
+	height:auto;
+}
+
+#pservices{
+	width:90%;
+}
+
+#services{
+	min-height: 400px;
+}
+
+#Iteam{
+	
+	width: auto;
+	height:auto;
+	/*padding-left:25%;
+	padding-right:5%*/
+
+}
+
+#hteam{
+    padding-top: 50px;
+    padding-left: 27%;
+    width: auto;
+    height: auto;
+}
+
+#pteam{
+	width: 47%;
+    padding-right: 4%;
+    float: left;
+    padding-left: 27%;
+    font-size: 1.25rem;
+    font-weight: 300;
+}
